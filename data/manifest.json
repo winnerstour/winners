@@ -1,0 +1,1112 @@
+{
+  "generatedAt": "2025-10-29T17:36:10.953Z",
+  "count": 158,
+  "events": [
+    {
+      "slug": "abcasafair-agosto",
+      "title": "ABCasa Fair",
+      "emoji": "📌",
+      "summary": "A maior feira B2B da América Latina para artigos de casa, decoração e presentes.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/abcasafair-agosto-banner.webp"
+    },
+    {
+      "slug": "abcasafair",
+      "title": "ABCasa Fair",
+      "emoji": "📌",
+      "summary": "A maior feira B2B da América Latina para artigos de casa, decoração e presentes.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/abcasafair-banner.webp"
+    },
+    {
+      "slug": "abf-franchising-expo",
+      "title": "ABF Franchising Expo",
+      "emoji": "📌",
+      "summary": "A maior feira de franquias do mundo, essencial para investidores, executivos e grandes marcas do setor de expansão B2B.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/abf-franchising-expo-banner.webp"
+    },
+    {
+      "slug": "abimad-2026-sao-paulo-expo",
+      "title": "ABIMAD 2026 — Pacotes corporativos e hotéis perto do São Paulo Expo",
+      "emoji": "📌",
+      "summary": "A principal feira de móveis e acessórios de alta decoração da América Latina",
+      "banner": "https://winnerstour.com.br/assets/img/banners/abimad-2026-sao-paulo-expo-banner.webp"
+    },
+    {
+      "slug": "abradilan-conexao-farma",
+      "title": "ABRADILAN CONEXÃO FARMA",
+      "emoji": "📌",
+      "summary": "O fórum central para decisores de Distribuição e Logística Farmacêutica no Brasil, focado em compliance e eficiência.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/abradilan-conexao-farma-banner.webp"
+    },
+    {
+      "slug": "abrafarma-future-trends",
+      "title": "Abrafarma Future Trends",
+      "emoji": "📌",
+      "summary": "O mais importante evento do varejo farmacêutico das Américas, reunindo as 29 maiores redes e mais de 1.500 executivos C-Level.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/abrafarma-future-trends-banner.webp"
+    },
+    {
+      "slug": "abrafati-show-2027",
+      "title": "ABRAFATI SHOW",
+      "emoji": "📌",
+      "summary": "O motor de negócios para a expansão sustentável e tecnológica na América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/abrafati-show-2027-banner.webp"
+    },
+    {
+      "slug": "abrint-global-congress",
+      "title": "Abrint Global Congress",
+      "emoji": "📌",
+      "summary": "O maior encontro B2B de ISPs e Telecomunicações da América Latina, focado em compliance regulatório e inovação (IA, 5G).",
+      "banner": "https://winnerstour.com.br/assets/img/banners/abrint-global-congress-banner.webp"
+    },
+    {
+      "slug": "abup-show",
+      "title": "ABUP SHOW",
+      "emoji": "📌",
+      "summary": "A maior plataforma B2B de decoração, utilidades domésticas e design autoral no Brasil.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/abup-show-banner.webp"
+    },
+    {
+      "slug": "abx26-automotive-business-experience-2026",
+      "title": "ABX26 - Automotive Business Experience 2026",
+      "emoji": "📌",
+      "summary": "O palco da transformação: Veículos Definidos por Software (SDV), IA como Propulsor Central e Receita Recorrente.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/abx26-automotive-business-experience-2026-banner.webp"
+    },
+    {
+      "slug": "agrishow-2026",
+      "title": "AGRISHOW 2026 – 31ª Feira Internacional de Tecnologia Agrícola em Ação",
+      "emoji": "📌",
+      "summary": "O maior e mais importante hub de inovação, máquinas e crédito para o agronegócio na América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/agrishow-2026-banner.webp"
+    },
+    {
+      "slug": "analitica-latin-america",
+      "title": "ANALITICA LATIN AMERICA",
+      "emoji": "📌",
+      "summary": "O principal fórum B2B de instrumentação analítica, P&D e tecnologia laboratorial da América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/analitica-latin-america-banner.webp"
+    },
+    {
+      "slug": "analoc-rental-show",
+      "title": "ANALOC RENTAL SHOW",
+      "emoji": "📌",
+      "summary": "Concentre-se em otimização de frotas e soluções digitais (BIM, Gestão) para escalar o ROI do seu negócio de locação de equipamentos.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/analoc-rental-show-banner.webp"
+    },
+    {
+      "slug": "apas-show-2026",
+      "title": "40ª APAS SHOW",
+      "emoji": "📌",
+      "summary": "O Motor do Novo Varejo Global",
+      "banner": "https://winnerstour.com.br/assets/img/banners/apas-show-2026-banner.webp"
+    },
+    {
+      "slug": "arnold-sports-festival-south-america",
+      "title": "Arnold Sports Festival South America",
+      "emoji": "📌",
+      "summary": "Principal feira B2B de saúde, fitness e bem-estar da América do Sul, essencial para o planejamento estratégico e aquisição de leads.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/arnold-sports-festival-south-america-banner.webp"
+    },
+    {
+      "slug": "automec",
+      "title": "AUTOMEC",
+      "emoji": "📌",
+      "summary": "O principal evento de negócios B2B na América Latina e o segundo maior do mundo no segmento.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/automec-banner.webp"
+    },
+    {
+      "slug": "autopar-2026",
+      "title": "AUTOPAR 2026",
+      "emoji": "📌",
+      "summary": "A maior feira da América Latina para sourcing, inovação técnica e fechamento de negócios no pós-venda automotivo.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/autopar-2026-banner.webp"
+    },
+    {
+      "slug": "barber-week",
+      "title": "Barber Week",
+      "emoji": "📌",
+      "summary": "Plataforma de gestão e inovação para decisores do mercado de beleza masculina, com foco em ROI, estoque e retenção de talentos.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/barber-week-banner.webp"
+    },
+    {
+      "slug": "batev-construcao-habitacao-2026",
+      "title": "🇦🇷 BATEV - Construção & Habitação 2026",
+      "emoji": "📌",
+      "summary": "A Plataforma de Negócios Mais Importante para Arquitetura e Estruturas na América Latina",
+      "banner": "https://winnerstour.com.br/assets/img/banners/batev-construcao-habitacao-2026-banner.webp"
+    },
+    {
+      "slug": "beauty-fair-2026",
+      "title": "Beauty Fair 2026",
+      "emoji": "📌",
+      "summary": "O maior evento B2B da beleza nas Américas.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/beauty-fair-2026-banner.webp"
+    },
+    {
+      "slug": "beauty-show-2026",
+      "title": "Beauty Show 2026",
+      "emoji": "📌",
+      "summary": "Fórum estratégico de P&D e inovação para fornecedores B2B de ingredientes, embalagens e tecnologia, impulsionando o ciclo de vendas do segundo semestre.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/beauty-show-2026-banner.webp"
+    },
+    {
+      "slug": "bett-brasil",
+      "title": "BETT BRASIL",
+      "emoji": "📌",
+      "summary": "A maior feira de EdTech da América Latina focada em ROI operacional e conformidade regulatória para líderes do setor.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/bett-brasil-banner.webp"
+    },
+    {
+      "slug": "bfshow",
+      "title": "BFSHOW",
+      "emoji": "📌",
+      "summary": "A principal feira B2B do setor calçadista, essencial para validar seu roadmap de 2026 e acelerar o funil de exportação.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/bfshow-banner.webp"
+    },
+    {
+      "slug": "biel-light-building-buenos-aires",
+      "title": "🇦🇷 BIEL Light + Building Buenos Aires",
+      "emoji": "📌",
+      "summary": "Feira Internacional da Indústria Elétrica, Eletrônica e de Iluminação",
+      "banner": "https://winnerstour.com.br/assets/img/banners/biel-light-building-buenos-aires-banner.webp"
+    },
+    {
+      "slug": "bienal-internacional-do-livro-sp-2026",
+      "title": "28ª BIENAL INTERNACIONAL DO LIVRO",
+      "emoji": "📌",
+      "summary": "O principal palco de negociação de direitos e inovação EdTech da América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/bienal-internacional-do-livro-sp-2026-banner.webp"
+    },
+    {
+      "slug": "bio-brazil-fair-naturaltech",
+      "title": "BIO BRAZIL FAIR | BIOFACH AMERICA LATINA + NATURALTECH",
+      "emoji": "📌",
+      "summary": "O maior encontro B2B de orgânicos e saudáveis da América Latina, reunindo <strong>marcas de peso</strong>, <strong>lançamentos</strong> e <strong>conteúdo</strong> para decisões estratégicas em ESG e supply chain.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/bio-brazil-fair-naturaltech-banner.webp"
+    },
+    {
+      "slug": "blip-id",
+      "title": "Blip id",
+      "emoji": "📌",
+      "summary": "O maior evento global de IA Conversacional, crucial para líderes de negócio que buscam crescimento e eficiência em 2026.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/blip-id-banner.webp"
+    },
+    {
+      "slug": "caminos-y-sabores-2026",
+      "title": "🇦🇷 Caminos y Sabores 2026",
+      "emoji": "📌",
+      "summary": "O Grande Mercado Argentino: Agroindústria Gourmet e Exportação de Valor Agregado",
+      "banner": "https://winnerstour.com.br/assets/img/banners/caminos-y-sabores-2026-banner.webp"
+    },
+    {
+      "slug": "cbtox-2026",
+      "title": "CBTOX 2026",
+      "emoji": "📌",
+      "summary": "O Congresso Brasileiro de Toxicologia é a plataforma para alinhar P&D, compliance regulatório e networking B2B estratégico em Life Sciences.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/cbtox-2026-banner.webp"
+    },
+    {
+      "slug": "ccxp",
+      "title": "UNLOCK CCXP",
+      "emoji": "📌",
+      "summary": "O braço de negócios que conecta executivos, talentos e Propriedades Intelectuais globais ao mercado de games, entretenimento e audiovisual.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/unlock-ccxp-banner.webp"
+    },
+    {
+      "slug": "ceex",
+      "title": "CEEX",
+      "emoji": "📌",
+      "summary": "O encontro imersivo que une conteúdo e capital para acelerar negócios na economia da influência B2B.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/ceex-banner.webp"
+    },
+    {
+      "slug": "celebra-show",
+      "title": "Celebra Show",
+      "emoji": "📌",
+      "summary": "Maior feira B2B de celebrações, festas e decoração sazonal da América Latina, crucial para decisões de compra e suprimentos.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/celebra-show-banner.webp"
+    },
+    {
+      "slug": "china-homelife-machinex",
+      "title": "CHINA HOMELIFE MACHINEX",
+      "emoji": "📌",
+      "summary": "A maior e mais completa plataforma B2B para sourcing e importação direta de fabricantes chineses, com foco em bens de consumo e produção.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/china-homelife-machinex-banner.webp"
+    },
+    {
+      "slug": "cidade-csc-2026",
+      "title": "Cidade CSC 2026",
+      "emoji": "📌",
+      "summary": "O maior evento de Cidades Inteligentes, transformação digital de governos e mobilidade urbana sustentável na América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/cidade-csc-2026-banner.webp"
+    },
+    {
+      "slug": "ciosp",
+      "title": "CIOSP 2026",
+      "emoji": "📌",
+      "summary": "O maior evento de Odontologia da América Latina, onde gestores e empresários buscam lançamentos e validam tecnologias de alta eficiência.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/ciosp-banner.webp"
+    },
+    {
+      "slug": "codecon-summit-26",
+      "title": "Codecon Summit 26",
+      "emoji": "📌",
+      "summary": "O maior festival de ideias e engenharia de software focado em ROI e soluções arquiteturais para líderes de tecnologia.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/codecon-summit-26-banner.webp"
+    },
+    {
+      "slug": "comex-tech-forum",
+      "title": "Comex Tech Forum",
+      "emoji": "📌",
+      "summary": "O ponto de encontro para líderes B2B de Comércio Exterior, Logística e Tecnologia.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/comex-tech-forum-banner.webp"
+    },
+    {
+      "slug": "conarh",
+      "title": "CONARH",
+      "emoji": "📌",
+      "summary": "O maior e mais influente Congresso de Gestão de Pessoas (RH) da América Latina — 100% focado em futuro e inovação.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/conarh-banner.webp"
+    },
+    {
+      "slug": "concrete-show-south-america",
+      "title": "CONCRETE SHOW SOUTH AMERICA",
+      "emoji": "📌",
+      "summary": "O maior e mais estratégico encontro da cadeia construtiva do concreto na América Latina, focado em eficiência e sustentabilidade.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/concrete-show-south-america-banner.webp"
+    },
+    {
+      "slug": "congress-brazil-mobile-expo-2026",
+      "title": "Congress Brazil Mobile & EXPO 2026",
+      "emoji": "📌",
+      "summary": "O hub estratégico para fabricantes, distribuidores e fintechs acelerarem negócios e canais de venda B2B no setor mobile e digital.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/congress-brazil-mobile-expo-2026-banner.webp"
+    },
+    {
+      "slug": "construlev-expo-2025",
+      "title": "CONSTRULEV EXPO 2025",
+      "emoji": "📌",
+      "summary": "O Evento que Transforma a Construção Civil no Brasil",
+      "banner": "https://winnerstour.com.br/assets/img/banners/construlev-expo-2025-banner.webp"
+    },
+    {
+      "slug": "eb-2026-international-congress",
+      "title": "EB 2026 International Congress",
+      "emoji": "📌",
+      "summary": "Maximize o ROI de P&D em Doenças Raras e acelere o Market Access na América Latina via conteúdo colaborativo.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/eb-2026-international-congress-banner.webp"
+    },
+    {
+      "slug": "edifica-santiago-chile",
+      "title": "🇨🇱 Edifica 2026",
+      "emoji": "📌",
+      "summary": "Feria Internacional de la Construcción",
+      "banner": "https://winnerstour.com.br/assets/img/banners/edifica-santiago-chile-banner.webp"
+    },
+    {
+      "slug": "eletrolar-show-2026-airconfair",
+      "title": "Eletrolar Show / airconfair 2026",
+      "emoji": "📌",
+      "summary": "O Hub B2B de Tecnologia e Climatização da América Latina",
+      "banner": "https://winnerstour.com.br/assets/img/banners/eletrolar-show-2026-airconfair-banner.webp"
+    },
+    {
+      "slug": "eletrolar-show-2026-eletromobilidade",
+      "title": "Future Mobility",
+      "emoji": "📌",
+      "summary": "(Eletrocar e Autopeças)",
+      "banner": "https://winnerstour.com.br/assets/img/banners/eletrolar-show-2026-eletromobilidade-banner.webp"
+    },
+    {
+      "slug": "eletrolar-show-all-connected-2026",
+      "title": "Eletrolar Show All Connected",
+      "emoji": "📌",
+      "summary": "Feira Internacional de Eletroeletrônicos, Eletrodomésticos, Tecnologia e Varejo",
+      "banner": "https://winnerstour.com.br/assets/img/banners/eletrolar-show-all-connected-2026-banner.webp"
+    },
+    {
+      "slug": "energy-solutions-show",
+      "title": "Energy Solutions Show (ESS)",
+      "emoji": "📌",
+      "summary": "O único evento B2B focado exclusivamente no consumidor corporativo de energia de média e alta tensão.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/energy-solutions-show-banner.webp"
+    },
+    {
+      "slug": "envase-alimentek-2027",
+      "title": "🇦🇷 Envase Alimentek",
+      "emoji": "📌",
+      "summary": "Exposição Internacional de Packaging e Processos",
+      "banner": "https://winnerstour.com.br/assets/img/banners/envase-alimentek-2027-banner.webp"
+    },
+    {
+      "slug": "equipotel",
+      "title": "Equipotel",
+      "emoji": "📌",
+      "summary": "O principal encontro de hospitalidade da América Latina para planejar seu CapEx e OpEx 2027.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/equipotel-banner.webp"
+    },
+    {
+      "slug": "erp-summit",
+      "title": "ERP Summit 2026",
+      "emoji": "📌",
+      "summary": "O maior evento global de Software e Gestão, focado na fronteira da Inteligência Aplicada e na mitigação do risco fiscal CNPJ 2026.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/erp-summit-banner.webp"
+    },
+    {
+      "slug": "escolar-office-brasil",
+      "title": "Escolar Office Brasil",
+      "emoji": "📌",
+      "summary": "O principal hub de negociação e relacionamento B2B da América Latina para o setor de papelaria, material escolar e escritório.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/escolar-office-brasil-banner.webp"
+    },
+    {
+      "slug": "estetika",
+      "title": "ESTETIKA",
+      "emoji": "📌",
+      "summary": "O maior congresso científico e feira de negócios B2B, focado em alta tecnologia para o setor de estética e bem-estar na América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/estetika-banner.webp"
+    },
+    {
+      "slug": "expo-bodegas-logistica-2025-santiago",
+      "title": "🇨🇱 Expo Bodegas & Logística",
+      "emoji": "📌",
+      "summary": "A Plataforma Essencial para Inovação em Intralogística e Supply Chain no Cone Sul",
+      "banner": "https://winnerstour.com.br/assets/img/banners/expo-bodegas-logistica-2025-santiago-banner.webp"
+    },
+    {
+      "slug": "expo-ferretera-brasil",
+      "title": "Expo Ferretera Brasil",
+      "emoji": "📌",
+      "summary": "Plataforma B2B focada em negócios técnicos, Logística 4.0, IoT e estabilidade da cadeia de suprimentos para o setor ferreiro.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/expo-ferretera-brasil-banner.webp"
+    },
+    {
+      "slug": "expo-frio-calor-chile-2026",
+      "title": " 🇨🇱 Expo Frío Calor Chile 2026",
+      "emoji": "📌",
+      "summary": "HVAC-R, Sustentabilidade e Transição Regulamentar",
+      "banner": "https://winnerstour.com.br/assets/img/banners/expo-frio-calor-chile-2026-banner.webp"
+    },
+    {
+      "slug": "expo-hospital-brasil",
+      "title": "Expo-Hospital Brasil",
+      "emoji": "📌",
+      "summary": "O evento que concentra mais de 72% dos decisores e especificadores de compra do setor de saúde de Minas Gerais.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/expo-hospital-brasil-banner.webp"
+    },
+    {
+      "slug": "expo-logisti-k-2026",
+      "title": "🇦🇷 Expo Logisti-K",
+      "emoji": "📌",
+      "summary": "A Plataforma Essencial da Logística e Supply Chain na América Latina",
+      "banner": "https://winnerstour.com.br/assets/img/banners/expo-logisti-k-2026-banner.webp"
+    },
+    {
+      "slug": "expo-motorhome",
+      "title": "EXPO MOTORHOME 2025",
+      "emoji": "📌",
+      "summary": "A principal plataforma de fornecimento de componentes técnicos para a cadeia de valor de veículos de recreio (RVs) na América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/expo-motorhome-banner.webp"
+    },
+    {
+      "slug": "expo-optica-brasil",
+      "title": "Expo Óptica Brasil (Abióptica)",
+      "emoji": "📌",
+      "summary": "O ponto focal anual de negociações do setor óptico, essencial para o alinhamento de OKRs e decisões de supply chain em 2026.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/expo-optica-brasil-banner.webp"
+    },
+    {
+      "slug": "expo-revestir",
+      "title": "EXPO REVESTIR",
+      "emoji": "📌",
+      "summary": "O maior evento de revestimentos e acabamentos da América Latina, focado em negócios de alto valor e inovações técnicas.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/expo-revestir-banner.webp"
+    },
+    {
+      "slug": "expoapras",
+      "title": "EXPOAPRAS",
+      "emoji": "📌",
+      "summary": "O maior evento supermercadista do Paraná, plataforma de liquidez acelerada e benchmarking para executivos B2B.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/expoapras-banner.webp"
+    },
+    {
+      "slug": "expobor-2026",
+      "title": "EXPOBOR 2026",
+      "emoji": "📌",
+      "summary": "A maior feira de tecnologia, máquinas e artefatos de borracha da América Latina, focada em P&D, insumos e Indústria 4.0.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/expobor-2026-banner.webp"
+    },
+    {
+      "slug": "expolazer-wellness",
+      "title": "Expolazer & Wellness",
+      "emoji": "📌",
+      "summary": "O ponto de encontro estratégico para inovações em piscinas, spas, design outdoor living e grandes projetos de infraestrutura hoteleira.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/expolazer-wellness-banner.webp"
+    },
+    {
+      "slug": "expolux",
+      "title": "EXPOLUX",
+      "emoji": "📌",
+      "summary": "A principal vitrine de inovações em iluminação e automação da América Latina, focada em negócios B2B e tendências de eficiência energética.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/expolux-banner.webp"
+    },
+    {
+      "slug": "expomafe",
+      "title": "EXPOMAFE 2027",
+      "emoji": "📌",
+      "summary": "A maior plataforma de inovação e sourcing estratégico para a Indústria 4.0 na América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/expomafe-banner.webp"
+    },
+    {
+      "slug": "expomatcon-2026",
+      "title": "ExpoMatcon 2026",
+      "emoji": "📌",
+      "summary": "A plataforma B2B essencial para decisores do varejo de materiais de construção que buscam previsibilidade e crescimento de margem.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/expomatcon-2026-banner.webp"
+    },
+    {
+      "slug": "expopostos-conveniencia",
+      "title": "ExpoPostos & Conveniência",
+      "emoji": "📌",
+      "summary": "A maior feira B2B da América Latina para revenda de combustíveis, food service e tecnologia de conveniência.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/expopostos-conveniencia-banner.webp"
+    },
+    {
+      "slug": "expoprint-converflexo-2026",
+      "title": "ExpoPrint Latin America & ConverFlexo 2026",
+      "emoji": "📌",
+      "summary": "A principal vitrine de tecnologia, inovação e tendências para as indústrias Gráfica, de Embalagens e Conversão na América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/expoprint-converflexo-2026-banner.webp"
+    },
+    {
+      "slug": "exposec",
+      "title": "EXPOSEC",
+      "emoji": "📌",
+      "summary": "A principal feira internacional de tecnologia em segurança, única do Brasil dedicada às inovações e parcerias estratégicas B2B.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/exposec-banner.webp"
+    },
+    {
+      "slug": "exposibram-expo-congresso-brasileiro-mineracao",
+      "title": "EXPOSIBRAM — Expo & Congresso Brasileiro de Mineração",
+      "emoji": "📌",
+      "summary": "O maior hub de experiências da mineração na América Latina, reunindo líderes, reguladores e fornecedores para acelerar a Mineração 4.0 e a agenda ESG.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/exposibram-expo-congresso-brasileiro-mineracao-banner.webp"
+    },
+    {
+      "slug": "expotea",
+      "title": "ExpoTEA",
+      "emoji": "📌",
+      "summary": "A principal plataforma de neurodiversidade B2B para fechar parcerias em Saúde, ESG e Inclusão Laboral.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/expotea-banner.webp"
+    },
+    {
+      "slug": "fce-cosmetique-pharma",
+      "title": "FCE COSMÉTIQUE | FCE PHARMA",
+      "emoji": "📌",
+      "summary": "A principal feira para a cadeia de suprimentos B2B de cosméticos e produtos farmacêuticos da América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/fce-cosmetique-pharma-banner.webp"
+    },
+    {
+      "slug": "fce-pharma-cosmetique",
+      "title": "FCE PHARMA & FCE COSMÉTIQUE",
+      "emoji": "📌",
+      "summary": "A plataforma essencial para sourcing, tecnologia e conformidade regulatória na cadeia produtiva da América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/fce-pharma-cosmetique-banner.webp"
+    },
+    {
+      "slug": "febratextil-ent-brasil",
+      "title": "FebraTêxtil + ENT Brasil",
+      "emoji": "📌",
+      "summary": "A plataforma industrial B2B que impulsiona a competitividade e a transformação digital no setor têxtil, de confecção e nãotecidos.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/febratextil-ent-brasil-banner.webp"
+    },
+    {
+      "slug": "febrava-rio-2026",
+      "title": "FEBRAVA RIO 2026",
+      "emoji": "📌",
+      "summary": "A principal plataforma B2B para consolidar o roadmap de infraestrutura em AVACR, eficiência energética e conformidade regulatória GWP no Sudeste.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/febrava-rio-2026-banner.webp"
+    },
+    {
+      "slug": "febrava",
+      "title": "FEBRAVA",
+      "emoji": "📌",
+      "summary": "O principal evento da América Latina para sourcing estratégico e inovação em eficiência AVAC-R.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/febrava-banner.webp"
+    },
+    {
+      "slug": "feicon-batimat",
+      "title": "FEICON BATIMAT",
+      "emoji": "📌",
+      "summary": "O maior hub de negócios da Construção Civil e Arquitetura, vital para o sourcing estratégico do ciclo anual.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/feicon-batimat-banner.webp"
+    },
+    {
+      "slug": "feimec",
+      "title": "FEIMEC - Feira Internacional de Máquinas e Equipamentos",
+      "emoji": "📌",
+      "summary": "Valide tecnologias de I4.0, encontre fornecedores de bens de capital e acelere seu pipeline de vendas industrial.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/feimec-banner.webp"
+    },
+    {
+      "slug": "fenabrave",
+      "title": "33º CONGRESSO & EXPO FENABRAVE",
+      "emoji": "📌",
+      "summary": "O maior evento do setor de distribuição de veículos automotores na América Latina e o segundo maior do mundo.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/33-congresso-expo-fenabrave-banner.webp"
+    },
+    {
+      "slug": "fenagra-2026",
+      "title": "Fenagra 2026",
+      "emoji": "📌",
+      "summary": "O principal ponto de encontro B2B da agroindústria Feed & Food na América Latina, focado em alta tecnologia e conhecimento técnico.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/fenagra-2026-banner.webp"
+    },
+    {
+      "slug": "fenasucro-agrocana",
+      "title": "Fenasucro & Agrocana",
+      "emoji": "📌",
+      "summary": "A maior e mais importante feira global dedicada exclusivamente à cadeia de bioenergia e ao setor sucroenergético.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/fenasucro-agrocana-banner.webp"
+    },
+    {
+      "slug": "fenatran",
+      "title": "Fenatran",
+      "emoji": "📌",
+      "summary": "A principal plataforma de negócios B2B para o Transporte Rodoviário de Carga e Logística na América Latina, gerando R$ 15 bilhões em negócios.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/fenatran-banner.webp"
+    },
+    {
+      "slug": "fenauto",
+      "title": "14º Congresso Internacional FENAUTO 2025",
+      "emoji": "📌",
+      "summary": "Acelere seu funil B2B: compare tecnologia, funding e soluções que destravam margens e giro no mercado de seminovos.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/fenauto-banner.webp"
+    },
+    {
+      "slug": "fiee-2027",
+      "title": "FIEE",
+      "emoji": "📌",
+      "summary": "A plataforma essencial para Automação Industrial, IoT e Eficiência Energética na América Latina — <strong>100% focada em soluções B2B</strong>.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/fiee-2027-banner.webp"
+    },
+    {
+      "slug": "fipan-2026",
+      "title": "FIPAN 2026",
+      "emoji": "📌",
+      "summary": "A principal feira B2B para o setor de panificação, confeitaria e food business na América Latina, focada em eficiência e automação.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/fipan-2026-banner.webp"
+    },
+    {
+      "slug": "fire-show",
+      "title": "Fire Show",
+      "emoji": "📌",
+      "summary": "A maior plataforma B2B da América Latina para decisões em Segurança Industrial, Prevenção e Combate a Incêndio.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/fire-show-banner.webp"
+    },
+    {
+      "slug": "fisa",
+      "title": "FiSA | Food Ingredients South America",
+      "emoji": "📌",
+      "summary": "O maior evento de P&D e Sourcing de Ingredientes e Aditivos da América Latina — 100% focado no seu roadmap de inovação.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/fisa-banner.webp"
+    },
+    {
+      "slug": "fisp-2026",
+      "title": "FISP 2026 – Feira Internacional de Segurança e Proteção",
+      "emoji": "📌",
+      "summary": "O maior encontro B2B de SST da América Latina, focado em compliance regulatório (NR-1) e ROI.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/fisp-2026-banner.webp"
+    },
+    {
+      "slug": "fispal-sorvetes",
+      "title": "Fispal Sorvetes 2026",
+      "emoji": "📌",
+      "summary": "O futuro da indústria de gelados na América do Sul",
+      "banner": "https://winnerstour.com.br/assets/img/banners/fispal-sorvetes-2026-banner.webp"
+    },
+    {
+      "slug": "fispal-tecnologia",
+      "title": "Fispal Tecnologia",
+      "emoji": "📌",
+      "summary": "A principal feira de tecnologia para alimentos e bebidas da América do Sul.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/fispal-tecnologia-banner.webp"
+    },
+    {
+      "slug": "fispalfoodservice",
+      "title": "Fispal Food Service",
+      "emoji": "📌",
+      "summary": "O principal encontro B2B da comunidade Food Service e Sorvetes na América Latina, focado em tecnologia e gestão.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/fispalfoodservice-banner.webp"
+    },
+    {
+      "slug": "fit-feria-internacional-de-turismo-2026",
+      "title": "🇦🇷 FIT – Feria Internacional de Turismo de América Latina",
+      "emoji": "📌",
+      "summary": "O epicentro dos negócios turísticos na América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/fit-feria-internacional-de-turismo-2026-banner.webp"
+    },
+    {
+      "slug": "fithep-expoalimentaria-2026",
+      "title": "🇦🇷 FITHEP Expoalimentaria 2026",
+      "emoji": "📌",
+      "summary": "Feira Internacional de Tecnologia e Insumos para Food Service, Padaria, Confeitaria e Gelato",
+      "banner": "https://winnerstour.com.br/assets/img/banners/fithep-expoalimentaria-2026-banner.webp"
+    },
+    {
+      "slug": "flexo-labels-expo",
+      "title": "FLEXO & LABELS EXPO",
+      "emoji": "📌",
+      "summary": "O maior encontro da América Latina para convertedores, brand owners e fornecedores, focado em lançamentos de equipamentos, insumos e soluções de identificação digital para o futuro do mercado.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/flexo-labels-expo-banner.webp"
+    },
+    {
+      "slug": "formobile-2026",
+      "title": "ForMóbile 2026",
+      "emoji": "📌",
+      "summary": "O maior e mais completo evento B2B para o setor de máquinas, tecnologia e suprimentos da indústria moveleira.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/formobile-2026-banner.webp"
+    },
+    {
+      "slug": "formula-e-e-prix-sao-paulo-2025",
+      "title": "Fórmula E - E-Prix São Paulo 2025",
+      "emoji": "📌",
+      "summary": "O laboratório global de alta performance, mobilidade elétrica e ESG, essencial para o planejamento estratégico de 2026.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/formula-e-e-prix-sao-paulo-2025-banner.webp"
+    },
+    {
+      "slug": "fruit-attraction-sao-paulo",
+      "title": "FRUIT ATTRACTION SÃO PAULO",
+      "emoji": "📌",
+      "summary": "A principal feira internacional de frutas e hortaliças do hemisfério sul para a expansão de negócios B2B.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/fruit-attraction-sao-paulo-banner.webp"
+    },
+    {
+      "slug": "futurecom",
+      "title": "FUTURECOM",
+      "emoji": "📌",
+      "summary": "O principal hub de Cibersegurança, 6G e IA Aplicada na América Latina, focado em acelerar o ROI e a Transformação Digital.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/futurecom-banner.webp"
+    },
+    {
+      "slug": "gamescom-latam-2026",
+      "title": "gamescom latam",
+      "emoji": "📌",
+      "summary": "O maior festival de jogos da América Latina — Conexão B2B e Lançamentos Globais.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/gamescom-latam-2026-banner.webp"
+    },
+    {
+      "slug": "gotex-show",
+      "title": "GOTEX Show",
+      "emoji": "📌",
+      "summary": "Encontro Internacional Têxtil, de Moda e Negócios B2B para o desenvolvimento de uma cadeia de suprimentos sustentável.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/gotex-show-banner.webp"
+    },
+    {
+      "slug": "haus-decor-show",
+      "title": "HAUS DECOR SHOW",
+      "emoji": "📌",
+      "summary": "O principal evento B2B de eficiência e inovação em tintas, iluminação, HVAC e automação, focado em especificadores e grandes negócios.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/haus-decor-show-banner.webp"
+    },
+    {
+      "slug": "his-healthcare-innovation-show",
+      "title": "HIS – HEALTHCARE INNOVATION SHOW",
+      "emoji": "📌",
+      "summary": "A principal plataforma B2B que conecta provedores de HealthTech a decisores hospitalares e líderes de TI na América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/his-healthcare-innovation-show-banner.webp"
+    },
+    {
+      "slug": "hospitalar",
+      "title": "HOSPITALAR 2026",
+      "emoji": "📌",
+      "summary": "O principal evento de negócios e conteúdo para a gestão e inovação em saúde na América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/hospitalar-banner.webp"
+    },
+    {
+      "slug": "hyvolution-brazil",
+      "title": "Hyvolution Brazil",
+      "emoji": "📌",
+      "summary": "O principal ponto de convergência B2B para fechar acordos de H2V e acelerar projetos na escala de Gigawatts.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/hyvolution-brazil-banner.webp"
+    },
+    {
+      "slug": "ifood-move",
+      "title": "iFood Move",
+      "emoji": "📌",
+      "summary": "O maior evento B2B de Food Service da América Latina, focado em tecnologia, gestão e o crescimento sustentável de restaurantes.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/ifood-move-banner.webp"
+    },
+    {
+      "slug": "imcas-americas-2026",
+      "title": "IMCAS Americas 2026",
+      "emoji": "📌",
+      "summary": "O principal launchpad científico e comercial da América Latina para inovações em Dermatologia, Cirurgia Plástica e Estética Avançada.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/imcas-americas-2026-banner.webp"
+    },
+    {
+      "slug": "in-cosmetics-latin-america",
+      "title": "in-cosmetics Latin America",
+      "emoji": "📌",
+      "summary": "Acelere o pipeline de P&D e valide seu roadmap de inovação no principal hub B2B de ingredientes cosméticos da América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/in-cosmetics-latin-america-banner.webp"
+    },
+    {
+      "slug": "induspar-2027",
+      "title": "INDUSPAR 2027",
+      "emoji": "📌",
+      "summary": "Plataforma de inovação em componentes e automação industrial, focada em decisões e parcerias B2B.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/induspar-2027-banner.webp"
+    },
+    {
+      "slug": "interior-lifestyle-eletrolar-show",
+      "title": "Interior Lifestyle South America & Eletrolar Show",
+      "emoji": "📌",
+      "summary": "A plataforma multissetorial que conecta design premium, tecnologia Smart Home e o varejo B2B da América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/interior-lifestyle-eletrolar-show-banner.webp"
+    },
+    {
+      "slug": "intermodal-south-america",
+      "title": "Intermodal South America",
+      "emoji": "📌",
+      "summary": "Acelere o funil B2B e o roadmap de digitalização do supply chain com insights de IA e líderes globais em logística e comércio exterior.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/intermodal-south-america-banner.webp"
+    },
+    {
+      "slug": "intralog-expo-south-america",
+      "title": "INTRA-LOG EXPO South America",
+      "emoji": "📌",
+      "summary": "O evento mais importante da América Latina 100% focado em intralogística, automação e Supply Chain B2B de alto valor.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/intralog-expo-south-america-banner.webp"
+    },
+    {
+      "slug": "isc-brasil-2026",
+      "title": "ISC Brasil 2026",
+      "emoji": "📌",
+      "summary": "O principal hub de negócios e conteúdo para líderes em segurança integrada e gestão de riscos.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/isc-brasil-2026-banner.webp"
+    },
+    {
+      "slug": "laad-defence-security-2027",
+      "title": "LAAD Defence & Security 2027",
+      "emoji": "📌",
+      "summary": "Maior Feira de Defesa e Segurança da América Latina",
+      "banner": "https://winnerstour.com.br/assets/img/banners/laad-defence-security-2027-banner.webp"
+    },
+    {
+      "slug": "laad-security-2026",
+      "title": "LAAD Security 2026",
+      "emoji": "📌",
+      "summary": "Feira Internacional de Segurança Pública e Corporativa",
+      "banner": "https://winnerstour.com.br/assets/img/banners/laad-security-2026-banner.webp"
+    },
+    {
+      "slug": "lacte-21",
+      "title": "LACTE 21",
+      "emoji": "📌",
+      "summary": "O principal encontro de Viagens, Eventos e Mobilidade Corporativa para C-Levels e decisores na América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/lacte-21-banner.webp"
+    },
+    {
+      "slug": "lavtech",
+      "title": "VI LAVTECH – Feira Internacional para Lavanderias",
+      "emoji": "📌",
+      "summary": "Concentra o público mais qualificado para validação de tecnologia, Hard ROI e contratos de longo prazo no setor de lavanderia industrial.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/lavtech-banner.webp"
+    },
+    {
+      "slug": "lignum-latin-america",
+      "title": "Lignum Latin America",
+      "emoji": "📌",
+      "summary": "O hub estratégico para investimentos em tecnologia 4.0 e sustentabilidade na cadeia produtiva da madeira no Brasil.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/lignum-latin-america-banner.webp"
+    },
+    {
+      "slug": "mara-cakes-fair",
+      "title": "MARA CAKES FAIR",
+      "emoji": "📌",
+      "summary": "O maior evento B2B de confeitaria, ideal para a validação técnica de produtos e a captação de lojistas e distribuidores.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/mara-cakes-fair-banner.webp"
+    },
+    {
+      "slug": "marmomac-brazil-2026",
+      "title": "MARMOMAC BRAZIL 2026",
+      "emoji": "📌",
+      "summary": "Plataforma estratégica para sourcing global, inovações BIM e parcerias em rochas naturais de alto valor.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/marmomac-brazil-2026-banner.webp"
+    },
+    {
+      "slug": "mega-artesanal",
+      "title": "MEGA ARTESANAL",
+      "emoji": "📌",
+      "summary": "A maior plataforma B2B para sourcing de materiais, máquinas e tendências da cadeia de Artesanato e Artes Manuais.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/mega-artesanal-banner.webp"
+    },
+    {
+      "slug": "minasparts",
+      "title": "MINASPARTS 2026",
+      "emoji": "📌",
+      "summary": "A principal feira de autopeças e reparação automotiva, conectando a indústria ao 2º maior mercado do Brasil.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/minasparts-banner.webp"
+    },
+    {
+      "slug": "miningtech-south-america",
+      "title": "MiningTech South America Conference and Exhibition",
+      "emoji": "📌",
+      "summary": "O principal ponto de convergência B2B para líderes em Mineração 4.0, ESG, e automação na América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/miningtech-south-america-banner.webp"
+    },
+    {
+      "slug": "modern-construction-show",
+      "title": "Modern Construction Show",
+      "emoji": "📌",
+      "summary": "O ponto de encontro da transformação tecnológica e industrial da Construção Civil no Brasil.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/modern-construction-show-banner.webp"
+    },
+    {
+      "slug": "motopar-autopar-2026",
+      "title": "MOTOPAR & AUTOPAR 2026",
+      "emoji": "📌",
+      "summary": "O ponto de encontro estratégico da cadeia automotiva e de motopeças, essencial para decisões de investimento e networking de alto nível B2B.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/motopar-autopar-2026-banner.webp"
+    },
+    {
+      "slug": "movimat",
+      "title": "MOVIMAT",
+      "emoji": "📌",
+      "summary": "A plataforma fundamental de Intralogística e Supply Chain na América Latina, convergindo tecnologia, movimentação e armazenagem.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/movimat-banner.webp"
+    },
+    {
+      "slug": "paving-expo-2026",
+      "title": "Paving Expo 2026",
+      "emoji": "📌",
+      "summary": "A plataforma de negócios mais completa para infraestrutura, focada em concessões, tecnologia BIM e TCO.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/paving-expo-2026-banner.webp"
+    },
+    {
+      "slug": "pesca-trade-show",
+      "title": "PESCA TRADE SHOW",
+      "emoji": "📌",
+      "summary": "O maior hub de negócios outdoor da América Latina focado em expansão de rede e parcerias comerciais B2B.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/pesca-trade-show-banner.webp"
+    },
+    {
+      "slug": "pet-vet-expo",
+      "title": "PET VET Expo",
+      "emoji": "📌",
+      "summary": "A feira mais completa de medicina veterinária, essencial para validar investimentos em gestão, P&D e eficiência operacional B2B.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/pet-vet-expo-banner.webp"
+    },
+    {
+      "slug": "plastico-brasil",
+      "title": "PLÁSTICO BRASIL 2027",
+      "emoji": "📌",
+      "summary": "O palco central para decisões de investimento em Sustentabilidade, Tecnologia e Indústria 4.0.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/plastico-brasil-banner.webp"
+    },
+    {
+      "slug": "pneushow-2026",
+      "title": "PNEUSHOW 2026",
+      "emoji": "📌",
+      "summary": "O maior palco de negócios da América Latina, focado exclusivamente em inovações, máquinas e soluções para a reforma e ciclo de vida do pneu.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/pneushow-2026-banner.webp"
+    },
+    {
+      "slug": "professional-fair-bh",
+      "title": "Professional Fair Belo Horizonte",
+      "emoji": "📌",
+      "summary": "A plataforma essencial para decisores da beleza profissional que buscam inovação, gestão de ROI e parcerias estratégicas no Sudeste.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/professional-fair-bh-banner.webp"
+    },
+    {
+      "slug": "proteminas",
+      "title": "PROTEMINAS – Feira Mineira de Segurança",
+      "emoji": "📌",
+      "summary": "O maior fórum B2B de Segurança e Saúde no Trabalho de Minas Gerais, focado em tecnologia preditiva e gestão de riscos.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/proteminas-banner.webp"
+    },
+    {
+      "slug": "pueri-expo",
+      "title": "Pueri Expo",
+      "emoji": "📌",
+      "summary": "Feira de negócios internacional focada em puericultura, essencial para decisores B2B que buscam crescimento e segurança na cadeia de suprimentos.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/pueri-expo-banner.webp"
+    },
+    {
+      "slug": "reatech",
+      "title": "REATECH + EXPO BRASIL PARALÍMPICO",
+      "emoji": "📌",
+      "summary": "A principal feira de Tecnologia Assistiva, Inclusão e Reabilitação, essencial para Compliance e ESG corporativo.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/reatech-banner.webp"
+    },
+    {
+      "slug": "rh-summit-2026",
+      "title": "RH Summit 2026",
+      "emoji": "📌",
+      "summary": "A principal conferência para líderes de RH e decisores que buscam alavancar o ROI do capital humano com tecnologia e gestão de ponta.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/rh-summit-2026-banner.webp"
+    },
+    {
+      "slug": "rioparts2027",
+      "title": "Rio Parts 2027",
+      "emoji": "📌",
+      "summary": "O principal encontro de negócios B2B focado em autopeças e reparação automotiva do Rio de Janeiro.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/rioparts2027-banner.webp"
+    },
+    {
+      "slug": "salao-do-automovel-sp-2025",
+      "title": "Salão do Automóvel",
+      "emoji": "📌",
+      "summary": "O <em>hub</em> estratégico da mobilidade: <strong>Integração da Cadeia</strong> e o Futuro da Indústria 4.0 no Brasil.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/salao-do-automovel-sp-2025-banner.webp"
+    },
+    {
+      "slug": "salao-nacional-internacional-motopecas-2026",
+      "title": "Salão Nacional e Internacional das Motopeças",
+      "emoji": "📌",
+      "summary": "O ponto de encontro exclusivo B2B que impulsiona a cadeia de fornecimento de motopeças e acessórios no Brasil.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/salao-nacional-internacional-motopecas-2026-banner.webp"
+    },
+    {
+      "slug": "sao-paulo-wine-trade-fair-spwtf",
+      "title": "São Paulo Wine Trade Fair (SPWTF)",
+      "emoji": "📌",
+      "summary": "Principal feira 100% B2B de vinhos e destilados da América Latina, focada em transação imediata e estoque para o 2º semestre.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/sao-paulo-wine-trade-fair-spwtf-banner.webp"
+    },
+    {
+      "slug": "semana-industrial-mineira-2027",
+      "title": "Semana Industrial Mineira 2027",
+      "emoji": "📌",
+      "summary": "Focado em ROI, mitigação de riscos operacionais e aceleração de pipeline para o setor B2B industrial de Minas Gerais.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/semana-industrial-mineira-2027-banner.webp"
+    },
+    {
+      "slug": "semana-internacional-do-cafe",
+      "title": "Semana Internacional do Café (SIC)",
+      "emoji": "📌",
+      "summary": "O maior encontro de café do Brasil, essencial para decisores que buscam soluções em AgriTech, sustentabilidade e eficiência logística.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/semana-internacional-do-cafe-banner.webp"
+    },
+    {
+      "slug": "set-expo-2026",
+      "title": "SET EXPO 2026",
+      "emoji": "📌",
+      "summary": "O principal evento de tecnologia, negócios e networking para a alta gestão do mercado de Mídia e Entretenimento na América Latina.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/set-expo-2026-banner.webp"
+    },
+    {
+      "slug": "shot-fair-brasil",
+      "title": "SHOT FAIR BRASIL",
+      "emoji": "📌",
+      "summary": "O maior evento latino-americano, dedicado a conectar fornecedores B2B de Tiro Esportivo, Tático e Outdoor para compradores estratégicos.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/shot-fair-brasil-banner.webp"
+    },
+    {
+      "slug": "siavs",
+      "title": "SIAVS – Salão Internacional de Proteína Animal",
+      "emoji": "📌",
+      "summary": "Maior plataforma B2B da América Latina para cadeias de aves, suínos e bovinos, focada em segurança alimentar e ROI.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/siavs-banner.webp"
+    },
+    {
+      "slug": "smart-city-expo-santiago-2026",
+      "title": "🇨🇱 Smart City Expo Santiago",
+      "emoji": "📌",
+      "summary": "Congresso Internacional e Exibição de Soluções Urbanas Inteligentes",
+      "banner": "https://winnerstour.com.br/assets/img/banners/smart-city-expo-santiago-2026-banner.webp"
+    },
+    {
+      "slug": "snec-pv-es-latam-2026",
+      "title": "SNEC PV & ES LATAM 2026",
+      "emoji": "📌",
+      "summary": "A maior feira global de PV e ES em sua 1ª edição LATAM, focada em projetos High-Ticket e C-Level.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/snec-pv-es-latam-2026-banner.webp"
+    },
+    {
+      "slug": "tattoo-week-rio",
+      "title": "Tattoo Week Rio",
+      "emoji": "📌",
+      "summary": "A plataforma B2B essencial para decisores focados em compliance, equipamentos premium e expansão do mercado nacional de tatuagem no Sudeste.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/tattoo-week-rio-banner.webp"
+    },
+    {
+      "slug": "tecno-fidta-2026",
+      "title": "🇦🇷 Tecno Fidta 2026",
+      "emoji": "📌",
+      "summary": "Tecnologia, Aditivos e Ingredientes para a Indústria Alimentícia do Mercosul",
+      "banner": "https://winnerstour.com.br/assets/img/banners/tecno-fidta-2026-banner.webp"
+    },
+    {
+      "slug": "thesmartere",
+      "title": "The smarter E South America",
+      "emoji": "📌",
+      "summary": "A maior aliança de feiras da América Latina para a nova realidade energética e mobilidade elétrica.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/thesmartere-banner.webp"
+    },
+    {
+      "slug": "travel-next-minas",
+      "title": "Travel Next Minas",
+      "emoji": "📌",
+      "summary": "A plataforma estratégica B2B que conecta inovação, governança e alto padrão para otimizar sua política de viagens corporativas e eventos.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/travel-next-minas-banner.webp"
+    },
+    {
+      "slug": "vegfest",
+      "title": "Vegfest 2025",
+      "emoji": "📌",
+      "summary": "O principal encontro B2B de Food Tech e Plant-Based para acelerar inovações e a cadeia de suprimentos.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/vegfest-banner.webp"
+    },
+    {
+      "slug": "world-security-congress",
+      "title": "World Security Congress (WSC)",
+      "emoji": "📌",
+      "summary": "Congresso executivo focado em resiliência operacional, cibersegurança e governança de dados para o C-Level.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/world-security-congress-banner.webp"
+    },
+    {
+      "slug": "wtm-latin-america",
+      "title": "WTM Latin America 2026",
+      "emoji": "📌",
+      "summary": "A plataforma essencial para acelerar seu pipeline de vendas e mapear a tecnologia no turismo LATAM.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/wtm-latin-america-banner.webp"
+    },
+    {
+      "slug": "yes-movel-show-campinas-2026",
+      "title": "Yes Móvel Show Campinas 2026",
+      "emoji": "📌",
+      "summary": "O Encontro B2B do Varejo Moveleiro no Interior Paulista",
+      "banner": "https://winnerstour.com.br/assets/img/banners/yes-movel-show-campinas-2026-banner.webp"
+    },
+    {
+      "slug": "yes-movel-show-goias-2026",
+      "title": "Yes Móvel Show Goiás 2026",
+      "emoji": "📌",
+      "summary": "O Encontro B2B de Móveis, Eletros e Colchões do Centro-Oeste",
+      "banner": "https://winnerstour.com.br/assets/img/banners/yes-movel-show-goias-2026-banner.webp"
+    },
+    {
+      "slug": "yes-movel-show-minas-gerais-2026",
+      "title": "Yes Móvel Show Minas Gerais 2026",
+      "emoji": "📌",
+      "summary": "O maior hub B2B do Sudeste para a indústria de móveis, eletros, colchões e decoração.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/yes-movel-show-minas-gerais-2026-banner.webp"
+    },
+    {
+      "slug": "yes-movel-show-para",
+      "title": "Yes Móvel Show Pará 2026",
+      "emoji": "📌",
+      "summary": "O Encontro de Negócios B2B do Setor Moveleiro da Região Norte",
+      "banner": "https://winnerstour.com.br/assets/img/banners/yes-movel-show-para-banner.webp"
+    },
+    {
+      "slug": "yes-movel-show-sao-paulo-export-2026",
+      "title": "Yes Móvel Show São Paulo Export 2026",
+      "emoji": "📌",
+      "summary": "Plataforma B2B focada em design, sustentabilidade e negócios de exportação para a indústria moveleira e de colchões.",
+      "banner": "https://winnerstour.com.br/assets/img/banners/yes-movel-show-sao-paulo-export-2026-banner.webp"
+    }
+  ]
+}
