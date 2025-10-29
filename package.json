@@ -1,12 +1,11 @@
 {
-  "name": "winnerstour-netlify-events",
+  "name": "winnerstour-site",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "netlify dev",
-    "build": "echo \"no build step\""
+    "build": "echo 'Static site - no build step'",
+    "dev": "netlify dev"
   },
-  "devDependencies": {
-    "netlify-cli": "^17.23.1"
-  }
+  "devDependencies": {}
 }
