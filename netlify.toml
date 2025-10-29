@@ -6,6 +6,13 @@
   node_bundler = "esbuild"
   directory = "netlify/functions"
 
+# Inclui AMBAS as árvores no pacote das funções
+[functions."events"]
+  included_files = ["data/events/**", "assets/data/events/**", "assets/img/banners/**"]
+
+[functions."event"]
+  included_files = ["data/events/**", "assets/data/events/**", "assets/img/banners/**"]
+
 [[redirects]]
   from = "/api/events"
   to = "/.netlify/functions/events"
