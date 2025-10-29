@@ -1,62 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="referrer" content="no-referrer">
-  <title>WinnersTour — Eventos</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/base.css">
-<script></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Winnerstour — Eventos e Pacotes Corporativos</title>
+  
+  <!-- Widget de busca (CSS) -->
+  <link rel="stylesheet" href="https://static.onertravel.com/widget/search/production/styles.css">
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="base.css" />
+  
+  <!-- Ajuste de logo e texto -->
+  <style>
+    .wt-logo {
+      font-weight: 900;
+      text-shadow: none !important;
+      filter: none !important;
+      color: #fff;
+      -webkit-text-stroke: 2px #000;
+      paint-order: stroke fill;
+      letter-spacing: .5px;
+    }
+    .event-card .fav {
+      width: 24px; height: 24px; object-fit: cover;
+      border-radius: 4px; margin-right: 8px; vertical-align: -6px;
+    }
+    .event-card h3 { display: inline; margin-left: 6px; }
+  </style>
 </head>
-<body class="wt-body">
-  <header class="wt-header">
-    <div class="wt-container wt-header__inner">
-      <h1 class="wt-logo">WINNERSTOUR</h1>
-      <a class="wt-whats" id="whatsLinkIndex" href="https://wa.me/?text=Ol%C3%A1!%20Quero%20saber%20sobre%20os%20eventos." target="_blank" rel="noopener">WhatsApp</a>
-    </div>
+
+<body>
+  <header>
+    <div class="wt-logo">Winnerstour</div>
   </header>
 
-  <main class="wt-container">
-    <h2 class="wt-title">Eventos</h2>
-    <div id="eventsGrid" class="cards-grid"></div>
+  <!-- ===== BLOCO DE APRESENTAÇÃO + CTA ===== -->
+  <section class="cta-intro" aria-label="Apresentação e contato imediato">
+    <h2>Precisa de ajuda? Chame aqui no WhatsApp</h2>
+    <p>
+      Fale direto com nossa equipe para <strong>check-in</strong>, <strong>remarcação</strong>, <strong>assentos</strong> e dúvidas durante a viagem.
+      Atendimento humano e suporte imediato no WhatsApp. Se preferir, faça seu <strong>orçamento agora</strong> pela <em>loja virtual</em> logo abaixo.
+      E mais embaixo você encontra nossos <strong>eventos, pacotes e destinos</strong>.
+    </p>
+
+    <div class="cta-actions">
+      <a class="btn btn-whatsapp" target="_blank" rel="noopener"
+         href="https://wa.me/5541999450111?text=Ol%C3%A1!%20Quero%20ajuda%20com%20minha%20reserva%20ou%20um%20or%C3%A7amento.">Falar no WhatsApp</a>
+      <a class="btn btn-outline" href="https://www.comprarviagem.com.br/winnerstour/">Loja Virtual</a>
+      <a class="btn btn-outline" href="https://www.winnerstour.com.br/">Site</a>
+      <a class="btn btn-outline" href="#eventos">Eventos</a>
+      <a class="btn btn-outline" href="#destinos">Destinos</a>
+    </div>
+    <div class="cta-divider" role="presentation"></div>
+  </section>
+
+  <!-- LOJA VIRTUAL WIDGET -->
+  <div id="wrapper"> 
+    <befly-widget language="pt-br" new-tab="true"></befly-widget>
+  </div>
+  <script src="https://static.onertravel.com/widget/search/production/widget-befly.js"></script>
+
+  <main id="eventos" class="wt-container">
+    <h1>Eventos e Feiras</h1>
+    <div id="eventsGrid" class="grid"></div>
   </main>
 
-  <footer class="wt-footer">
-    <div class="wt-container">© WinnersTour</div>
-  </footer>
+  <script>
+  (async () => {
+    try {
+      const res = await fetch("/api/events");
+      const { events } = await res.json();
+      window.__EVENTS = events;
+      const grid = document.querySelector("#eventsGrid");
+      if (!grid) return;
 
-  <script src="assets/js/index.js"></script>
-<script>
-(async () => {
-  try {
-    const res = await fetch("/api/events");
-    const { events } = await res.json();
-    // mantém compatibilidade com scripts existentes
-    window.__EVENTS = events;
-    // tenta renderização existente
-    if (typeof renderEventCards === "function") {
-      renderEventCards(events);
-    } else {
-      // fallback simples: preenche um container #events-list se existir
-      const list = document.querySelector("#events-list, .events-list, [data-events-list]");
-      if (list) {
-        list.innerHTML = events.map(ev => `
-          <a class="event-card" href="${ev.url}">
-            <img loading="lazy" src="${ev.banner}" alt="${ev.title}">
-            <h3>${ev.emoji ? ev.emoji + " " : ""}${ev.title}</h3>
-            <p>${ev.subtitle || ""}</p>
-          </a>
-        `).join("");
-      }
+      grid.innerHTML = events.map(ev => {
+        const hero = ev.banner.replace("-banner.", "-hero.");
+        const favicon = ev.banner.replace("-banner.", "-favicon.");
+        return `
+        <a class="event-card" href="${ev.url}">
+          <img loading="lazy" src="${hero}" onerror="this.onerror=null;this.src='${ev.banner}'" alt="${ev.title}">
+          <h3><img class="fav" src="${favicon}" onerror="this.style.display='none'">${ev.emoji ? ev.emoji + ' ' : ''}${ev.title}</h3>
+          <p>${ev.subtitle || ''}</p>
+        </a>`;
+      }).join("");
+    } catch (err) {
+      console.error("Falha ao carregar /api/events", err);
     }
-    document.dispatchEvent(new CustomEvent("events:loaded", { detail: events }));
-  } catch (err) {
-    console.error("Falha ao carregar /api/events", err);
-  }
-})();
-</script>
+  })();
+  </script>
 </body>
 </html>
