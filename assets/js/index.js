@@ -1,90 +1,76 @@
-// INDEX v7 — hero + favicon + link para evento.html
+// index.js — atualizado
+// - Usa HERO por padrão e faz fallback para BANNER
+// - Insere favicon antes do título
+// - Linka para `evento.html?slug=`
+// - Mantém compatibilidade com window.__EVENTS e com a Function /.netlify/functions/events
+
 (function () {
-  const ABS = /^https?:\/\//i;
-  const norm = (u) => (!u ? "" : ABS.test(u) ? u : (u[0] === "/" ? u : "/" + u.replace(/^\.\//, "")));
+  const $list = document.querySelector("#events, #event-list, .events-list") || document.body;
+  if (!$list) return;
 
-  // CSS do topo (contorno preto e sem blur)
-  function injectCSS() {
-    const css = `
-      :root{--topbar-bg:#FF6D2D;--wrap:1200px}
-      .topbar{position:sticky;top:0;z-index:50;background:var(--topbar-bg);color:#fff}
-      .topbar__in{max-width:var(--wrap);margin:0 auto;display:flex;align-items:center;gap:12px;padding:10px 12px}
-      .brand{font-weight:900;font-size:20px;letter-spacing:.5px;text-transform:uppercase;
-             color:#fff; -webkit-text-stroke:1.25px #000; text-shadow:1px 1px 0 #000,-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000}
-      .brand img{filter:none!important;image-rendering:auto}
-      #eventsGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;max-width:var(--wrap);margin:20px auto;padding:0 12px}
-      .card{border:1px solid #eee;border-radius:14px;overflow:hidden;background:#fff}
-      .card .thumb{aspect-ratio:16/9;background:#f6f6f6;display:block;width:100%;object-fit:cover}
-      .card .body{padding:12px}
-      .card .ttl{display:flex;align-items:center;gap:8px;font-weight:800}
-      .fav{width:22px;height:22px;flex:0 0 22px;object-fit:contain}
-      .card a{color:inherit;text-decoration:none}
-    `;
-    const tag = document.createElement("style");
-    tag.textContent = css.replace(/\s+/g, " ");
-    document.head.appendChild(tag);
+  function resolveImage(slug, kind) {
+    // kind: 'hero' | 'banner' | 'favicon'
+    return `/assets/img/banners/${slug}-${kind}.webp`;
   }
 
-  // carrega eventos da função ou do manifest
-  async function fetchEvents() {
-    try {
-      const r = await fetch("/.netlify/functions/events", { cache: "no-store" });
-      if (r.ok) { const j = await r.json(); return j.events || []; }
-    } catch (_) {}
-    // fallback: manifest.json
-    const r2 = await fetch("/assets/data/manifest.json", { cache: "no-store" });
-    const j2 = await r2.json();
-    return j2.events || j2 || [];
-  }
+  function cardTemplate(ev) {
+    const hero = resolveImage(ev.slug, "hero");
+    const banner = resolveImage(ev.slug, "banner");
+    const favicon = resolveImage(ev.slug, "favicon");
+    const url = `evento.html?slug=${encodeURIComponent(ev.slug)}`;
 
-  // monta imagem: preferir HERO, cair para BANNER
-  function heroFor(slug) {
-    return `/assets/img/banners/${slug}-hero.webp`;
-  }
-  function bannerFor(slug) {
-    return `/assets/img/banners/${slug}-banner.webp`;
-  }
-  function faviconFor(slug) {
-    return `/assets/img/banners/${slug}-favicon.webp`;
-  }
-
-  function card(ev) {
-    const slug = ev.slug;
-    const url = `evento.html?slug=${encodeURIComponent(slug)}`;
-    const imgHero = heroFor(slug);
-    const imgBanner = bannerFor(slug);
-    const fav = faviconFor(slug);
+    // NOTA: usamos onerror inline para fazer fallback de HERO -> BANNER automaticamente
     return `
-      <article class="card">
-        <a href="${url}">
-          <img class="thumb" src="${imgHero}" onerror="this.onerror=null;this.src='${imgBanner}'" alt="">
-        </a>
-        <div class="body">
-          <a href="${url}" class="ttl">
-            <img class="fav" src="${fav}" onerror="this.style.display='none'">
-            <span>${ev.title || slug}</span>
-          </a>
-          <div class="sub">${ev.subtitle || ""}</div>
-        </div>
-      </article>
-    `;
+    <article class="event-card" data-slug="${ev.slug}">
+      <a class="event-card__media" href="${url}">
+        <img class="event-card__img" src="${hero}" alt="${ev.title} — imagem" 
+             onerror="this.onerror=null;this.src='${banner}'" loading="lazy" />
+      </a>
+      <div class="event-card__body">
+        <h3 class="event-card__title">
+          <img class="event-card__favicon" src="${favicon}" alt="" 
+               onerror="this.style.display='none'" width="20" height="20" />
+          <a href="${url}" class="event-card__link">${ev.title}</a>
+        </h3>
+        ${ev.subtitle ? `<p class="event-card__subtitle">${ev.subtitle}</p>` : ""}
+      </div>
+    </article>`;
   }
 
-  function renderTopbar() {
-    const bar = document.createElement("div");
-    bar.className = "topbar";
-    bar.innerHTML = `<div class="topbar__in"><div class="brand">WINNERS TOUR</div></div>`;
-    document.body.prepend(bar);
+  function render(events) {
+    if (!Array.isArray(events)) return;
+    const html = events.map(cardTemplate).join("");
+    // Tenta preencher contêineres conhecidos sem quebrar layout existente
+    const containers = [
+      document.querySelector("#events"),
+      document.querySelector("#event-list"),
+      document.querySelector(".events-list")
+    ].filter(Boolean);
+
+    if (containers.length) {
+      containers.forEach(el => el.innerHTML = html);
+    } else {
+      // fallback: injeta no body (não recomendado, mas evita tela vazia)
+      const wrap = document.createElement("section");
+      wrap.innerHTML = html;
+      document.body.appendChild(wrap);
+    }
   }
 
-  (async function init() {
-    injectCSS();
-    renderTopbar();
-    const grid = document.getElementById("eventsGrid") || (() => {
-      const g = document.createElement("section"); g.id = "eventsGrid"; document.body.appendChild(g); return g;
-    })();
+  async function load() {
+    try {
+      if (window.__EVENTS && Array.isArray(window.__EVENTS)) {
+        render(window.__EVENTS);
+        return;
+      }
+      const res = await fetch("/.netlify/functions/events");
+      if (!res.ok) throw new Error("Falha ao carregar events function");
+      const data = await res.json();
+      render(data.events || []);
+    } catch (e) {
+      console.error("[index.js] Erro ao carregar eventos:", e);
+    }
+  }
 
-    const evts = await fetchEvents();
-    grid.innerHTML = evts.map(card).join("");
-  })();
+  document.addEventListener("DOMContentLoaded", load);
 })();
