@@ -1,36 +1,71 @@
-:root{
-  --topbar-bg:#FF6D2D;
-  --topbar-fg:#fff;
-  --wrap:1200px;
-  --gap:24px;
-  --radius:16px;
+
+/* === WinnersTour — ajustes corretos no CSS (cards + grid) === */
+
+/* Grid de eventos */
+#eventsGrid, .events-grid, [data-events-grid] {
+  --gap: 24px;
+  --radius: 16px;
+  --shadow: 0 6px 18px rgba(0,0,0,.08);
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  align-items: stretch;
 }
-*{box-sizing:border-box}
-html,body{margin:0;padding:0;font-family:Montserrat,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:#111;background:#f5f7fb}
-a{color:inherit}
 
-/* Topbar */
-.topbar{position:sticky;top:0;z-index:50;background:var(--topbar-bg);}
-.topbar__inner{max-width:var(--wrap);margin:0 auto;padding:10px 16px;display:flex;align-items:center;justify-content:space-between}
-.logo{font-weight:900;letter-spacing:.3px;color:#fff;text-transform:uppercase;
-      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;}
-.wa-btn{display:inline-flex;align-items:center;gap:8px;background:#10B160;border-radius:9999px;color:#fff;
-        font-weight:800;padding:6px 12px;text-decoration:none}
+/* Card base */
+.event-card {
+  border-radius: var(--radius);
+  background: #fff;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform .12s ease;
+}
+.event-card:hover { transform: translateY(-2px); }
 
-/* Container */
-.container{max-width:var(--wrap);margin:0 auto;padding:0 16px}
-h1,h2,h3{margin:12px 0}
-.muted{color:#4b5563}
+/* Área da imagem com ratio 3:1 (≈ 6x2) */
+.event-card .card-media {
+  width: 100%;
+  aspect-ratio: 3 / 1;    /* garante formato retangular 'hero' */
+  overflow: hidden;
+  background: #f3f3f3;
+}
+.event-card .card-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* sem esmagar */
+  display: block;
+}
 
-/* Cards grid */
-#eventsGrid{display:grid;gap:var(--gap);grid-template-columns:1fr}
-@media(min-width:760px){#eventsGrid{grid-template-columns:repeat(2,1fr)}}
-@media(min-width:1100px){#eventsGrid{grid-template-columns:repeat(3,1fr)}}
+/* Conteúdo */
+.event-card .card-body {
+  padding: 14px 16px 16px;
+}
+.event-card .card-title {
+  margin: 0 0 6px;
+  font-weight: 800;
+  line-height: 1.15;
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.event-card .card-subtitle {
+  margin: 0;
+  color: #46505a;
+  font-size: .9rem;
+}
 
-.card{background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.06)}
-.card__cover{position:relative;aspect-ratio:16/9;background:#fff}
-.card__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.card__body{padding:12px 14px}
-.card__title{font-weight:900;margin:0 0 4px}
-.card__desc{margin:0;color:#374151;line-height:1.35}
-.favicon{width:18px;height:18px;object-fit:contain;margin-right:6px;vertical-align:-3px}
+/* Favicon ao lado do título */
+.event-card .favicon {
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 1px 4px rgba(0,0,0,.15);
+  object-fit: cover;
+}
+@media (min-width: 1024px) {
+  #eventsGrid, .events-grid, [data-events-grid] { --gap: 28px; }
+}
