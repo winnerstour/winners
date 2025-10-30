@@ -1,62 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="referrer" content="no-referrer">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>WinnersTour — Eventos</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS correto -->
   <link rel="stylesheet" href="assets/css/base.css">
-<script></script>
+
+  <!-- Widget de busca -->
+  <link rel="stylesheet" href="https://static.onertravel.com/widget/search/production/styles.css">
 </head>
-<body class="wt-body">
-  <header class="wt-header">
-    <div class="wt-container wt-header__inner">
-      <h1 class="wt-logo">WINNERSTOUR</h1>
-      <a class="wt-whats" id="whatsLinkIndex" href="https://wa.me/?text=Ol%C3%A1!%20Quero%20saber%20sobre%20os%20eventos." target="_blank" rel="noopener">WhatsApp</a>
+<body>
+  <!-- Topbar (texto em caixa alta; visual vem do seu base.css) -->
+  <header class="topbar">
+    <div class="topbar__inner">
+      <div class="logo">WINNERS TOUR</div>
+      <a class="wa-btn" href="https://wa.me/5541999450111?text=Ol%C3%A1!%20Quero%20ajuda%20com%20minha%20reserva%20ou%20um%20or%C3%A7amento." target="_blank" rel="noopener">WhatsApp</a>
     </div>
   </header>
 
-  <main class="wt-container">
-    <h2 class="wt-title">Eventos</h2>
-    <div id="eventsGrid" class="cards-grid"></div>
+  <main class="container">
+    <!-- ===== BLOCO DE APRESENTAÇÃO + CTA ===== -->
+    <section class="cta-intro" aria-label="Apresentação e contato imediato">
+      <h2>Precisa de ajuda? Chame aqui no WhatsApp</h2>
+      <p>
+        Fale direto com nossa equipe para <strong>check-in</strong>, <strong>remarcação</strong>, <strong>assentos</strong> e dúvidas durante a viagem.
+        Atendimento humano e suporte imediato no WhatsApp. Se preferir, faça seu <strong>orçamento agora</strong> pela <em>loja virtual</em> logo abaixo.
+        E mais embaixo você encontra nossos <strong>eventos, pacotes e destinos</strong>.
+      </p>
+
+      <div class="cta-actions">
+        <a class="btn btn-whatsapp" target="_blank" rel="noopener"
+           href="https://wa.me/5541999450111?text=Ol%C3%A1!%20Quero%20ajuda%20com%20minha%20reserva%20ou%20um%20or%C3%A7amento.">
+          Falar no WhatsApp
+        </a>
+        <a class="btn btn-outline" href="https://www.comprarviagem.com.br/winnerstour/">Loja Virtual</a>
+        <a class="btn btn-outline" href="https://www.winnerstour.com.br/">Site</a>
+        <a class="btn btn-outline" href="#eventos">Eventos</a>
+        <a class="btn btn-outline" href="#destinos">Destinos</a>
+      </div>
+
+      <div class="cta-divider" role="presentation"></div>
+    </section>
+
+    <!-- LOJA VIRTUAL WIDGET -->
+    <div id="wrapper">
+      <befly-widget language="pt-br" new-tab="true"></befly-widget>
+    </div>
+    <script src="https://static.onertravel.com/widget/search/production/widget-befly.js"></script>
+
+    <h2 id="eventos">Eventos e Feiras</h2>
+    <div id="eventsGrid" aria-live="polite"></div>
   </main>
 
-  <footer class="wt-footer">
-    <div class="wt-container">© WinnersTour</div>
-  </footer>
-
-  <script src="assets/js/index.js"></script>
-<script>
-(async () => {
-  try {
-    const res = await fetch("/api/events");
-    const { events } = await res.json();
-    // mantém compatibilidade com scripts existentes
-    window.__EVENTS = events;
-    // tenta renderização existente
-    if (typeof renderEventCards === "function") {
-      renderEventCards(events);
-    } else {
-      // fallback simples: preenche um container #events-list se existir
-      const list = document.querySelector("#events-list, .events-list, [data-events-list]");
-      if (list) {
-        list.innerHTML = events.map(ev => `
-          <a class="event-card" href="${ev.url}">
-            <img loading="lazy" src="${ev.banner}" alt="${ev.title}">
-            <h3>${ev.emoji ? ev.emoji + " " : ""}${ev.title}</h3>
-            <p>${ev.subtitle || ""}</p>
-          </a>
-        `).join("");
-      }
-    }
-    document.dispatchEvent(new CustomEvent("events:loaded", { detail: events }));
-  } catch (err) {
-    console.error("Falha ao carregar /api/events", err);
-  }
-})();
-</script>
+  <!-- JS correto -->
+  <script type="module" src="assets/js/index.js"></script>
 </body>
 </html>
