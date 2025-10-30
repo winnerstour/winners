@@ -69,3 +69,35 @@
 @media (min-width: 1024px) {
   #eventsGrid, .events-grid, [data-events-grid] { --gap: 28px; }
 }
+
+/* === WinnersTour — ajustes corretos no CSS (cards + grid) === */
+/* Grid de eventos */
+#eventsGrid, .events-grid, [data-events-grid] {
+  --gap: 24px;
+  --radius: 16px;
+  --shadow: 0 6px 18px rgba(0,0,0,.08);
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  align-items: stretch;
+}
+
+/* Card base */
+.event-card { border-radius: var(--radius); background:#fff; box-shadow:var(--shadow); overflow:hidden; display:flex; flex-direction:column; transition:transform .12s ease; }
+.event-card:hover { transform: translateY(-2px); }
+
+/* Imagem 3:1 (≈ formato hero 6x2) */
+.event-card .card-media { width:100%; aspect-ratio:3/1; overflow:hidden; background:#f3f3f3; }
+.event-card .card-media img { width:100%; height:100%; object-fit:cover; display:block; }
+
+/* Conteúdo */
+.event-card .card-body { padding:14px 16px 16px; }
+.event-card .card-title { margin:0 0 6px; font-weight:800; line-height:1.15; font-size:1.05rem; display:flex; align-items:center; gap:8px; }
+.event-card .card-subtitle { margin:0; color:#46505a; font-size:.9rem; }
+
+/* Favicon ao lado do título */
+.event-card .favicon { width:22px; height:22px; border-radius:4px; background:#fff; box-shadow:0 1px 4px rgba(0,0,0,.15); object-fit:cover; }
+
+@media (min-width:1024px){
+  #eventsGrid, .events-grid, [data-events-grid] { --gap: 28px; }
+}
